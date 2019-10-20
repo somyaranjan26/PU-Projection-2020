@@ -9,7 +9,13 @@ background-size: cover;
 
 iframe {
   margin-top: 20vh;
-  transform: translate(57%, 0%);
+  transform: translate(57%, -10%);
   justify-content: center;
   border-radius: 5%;
+}
+
+.Plogo {
+  transform: translate(180%, 20%);
+  height: 100px;
+  width: 300px;
 }
