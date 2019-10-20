@@ -1,21 +1,44 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="ltr" >
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projection: Annual Tech Fest</title>
     <link rel="stylesheet" href="Css/Style.css">
     <link rel="shortcut icon" href="Logo/OnlyLogo.png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <title>Projection: Annual Tech Fest</title>
   </head>
-  <body id="particles-js">
+  <body>
+    <div id="particles-js">
 
-    <img src="./Logo/White.png" alt="logo" class="logo__img">
-    <iframe width="670" height="380" frameborder="0" scrolling="no"
-      src="https://m.shtoss.com/game/the-rescue-rocket/index.html">
-    </iframe>
-    <img class="rocket" src="./Images/Rocket.svg" alt="rocket">
-    <img class="moon" src="./Images/moon.svg" alt="moon">    
-    
+      <section class="main">
+        <img src="./Logo/White.png" alt="logo" class="logo__img">
+        <iframe width="670" height="380" frameborder="0" scrolling="no"
+          src="https://m.shtoss.com/game/the-rescue-rocket/index.html">
+        </iframe>
+        <img class="rocket" src="./Images/Rocket.svg" alt="rocket">
+        <img class="moon" src="./Images/moon.svg" alt="moon">
+      </section>
+      
+      <section class="aboutus">
+        <div class="heading">About us</div>
+        <p>Projections is an International Technical Festival which is being organized by Parul University (formerly Parul Group of Institutes) since the academic year 2005-2006. More than 38+ different Technical, Non technical events, special events, workshops, Guest lectures, Fun events etc will be organized in Projections'18. With more than 6000 participants and 15000 viewers last year, Projections is one of the Largest Technical Festivals of Gujarat. Projections was started with the vision to provide a platform to the students where they could showcase their technical skills entwined with fun, thrill, adventure, brain storming and crazy events, activities and competitions. Projections is aiming to nurture the talents of every student by guiding and providing ample opportunities to express their skills and talents at various platforms and compete with the students from various different universities. Apart from this, even the International students of the University are a part of this endeavour, making Projections even more Vibrant. We have indeed lived up to our tagline "Technofied Evolution" by making this an International Symposium.</p>
+  
+        <div class="heading">About University</div>
+        <p>Parul University has contributed immensely to develop education sector in the State with an amalgamation of 32+ Institutes offering 250+ programs with 28,000 students and 700+ international students from 49 countries. Moving ahead on the platform of success Parul University continues to excel in all the domains thereby having bilateral exchange programs with top international universities in Germany, Poland, Czech Republic, Canada & Russia and 25 International MoUs perceiving the vision of par excellence in a 150 acre modern infrastructure & providing in campus residential facility to 7000 students making it India's Premier Multidisciplinary University. Well, it is also the only campus in Gujarat to have 109 faculty members from reputed organizations such as IITs, NITs & IISc. The PU Campus is a perfect blend of youth under the guidance of experienced academicians creating a positive aura of teaching, learning, knowledge & innovation for all the stake holders.</p>
+      </section>
+  
+      <section class="form">
+        <div class="heading">Send us a message</div>
+          <form action="/" method="POST" class="form__fields">
+            <input class="input" type="text" name="username" placeholder="Name" /><br />
+            <input class="input" type="number" name="phone" placeholder="Mobile Number" /><br />
+            <input class="input" type="email" name="email" placeholder="Email Id" /><br />
+            <input type="submit" value="Submit" class="form__submit">
+          </form>
+      </section>
+      
+    </div>
     <!-- particle effect -->
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
     <script>
@@ -130,5 +153,5 @@
   "retina_detect": true
 });  
     </script>
-  </body>
+</body>
 </html>
