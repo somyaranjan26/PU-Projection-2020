@@ -1,0 +1,15 @@
+body {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(1, 0, 7, 0.8), 
+    rgba(7, 3, 10, 0.8)), 
+    url("../Images/1.png");
+background-size: cover; 
+}
+
+iframe {
+  margin-top: 20vh;
+  transform: translate(57%, 0%);
+  justify-content: center;
+  border-radius: 5%;
+}
