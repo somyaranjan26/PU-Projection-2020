@@ -6,7 +6,13 @@
 }
 
 html {
+  font-family: 'Roboto', sans-serif;
   font-size: 62.5%;
+}
+
+.particles-js-canvas-el {
+  position: relative;
+  top: 0;
 }
 
 body {
@@ -74,4 +80,9 @@ input {
   html {
     font-size: 50%;
   }
+}
+p{
+  font-size: 1.8rem;
+  color: #fff;
+  margin: 5rem 7.2rem;
 }
